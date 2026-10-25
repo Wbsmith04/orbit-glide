@@ -1,5 +1,110 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Orbit Glide</title>
-<style>:root{color-scheme:dark}body{margin:0;min-height:100vh;display:grid;place-items:center;font:16px/1.6 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#e8eef7;background:radial-gradient(120% 60% at 50% 0%,#1d2a6e 0%,#0f1440 45%,#070a1e 100%) fixed;text-align:center}h1{margin:0;font-size:52px;letter-spacing:.12em;font-weight:800;background:linear-gradient(180deg,#fff 20%,rgba(214,234,255,.62) 46%,#fff 50%,rgba(170,205,255,.6) 80%);-webkit-background-clip:text;background-clip:text;color:transparent}p{color:#c8d4e6}a{color:#9fdcff;margin:0 10px}.get{display:inline-block;margin:18px 0 22px;padding:14px 28px;border-radius:999px;color:#0b1030;font-weight:700;text-decoration:none;background:linear-gradient(180deg,#fff,#d6e6ff);box-shadow:0 10px 30px -8px rgba(120,180,255,.6)}</style>
-</head><body><main><h1>ORBIT</h1><p style="letter-spacing:.9em;margin-top:4px">GLIDE</p><p>Fling. Orbit. Glide. A one-tap space arcade game for iPhone.</p><a class="get" href="https://apps.apple.com/us/app/orbit-glide/id6820881837">Download on the App Store</a><p><a href="support/">Support</a><a href="privacy/">Privacy policy</a></p></main></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Orbit Glide: One-Tap Space Arcade Game for iPhone</title>
+<meta name="description" content="Fling your comet from planet to planet with one tap. Land dead center for a PERFECT, chain streaks, play 200 levels and a daily challenge, and collect 100 comets. Free on the App Store." />
+<meta name="apple-itunes-app" content="app-id=6820881837" />
+<link rel="canonical" href="https://wbsmith04.github.io/orbit-glide/" />
+<link rel="icon" href="media/icon.png" />
+<link rel="apple-touch-icon" href="media/icon.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Orbit Glide" />
+<meta property="og:title" content="Orbit Glide: one-tap space arcade game for iPhone" />
+<meta property="og:description" content="Fling your comet from planet to planet. Land dead center for a PERFECT. Free on the App Store." />
+<meta property="og:url" content="https://wbsmith04.github.io/orbit-glide/" />
+<meta property="og:image" content="https://wbsmith04.github.io/orbit-glide/media/og.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Orbit Glide: one-tap space arcade game for iPhone" />
+<meta name="twitter:description" content="Fling your comet from planet to planet. Land dead center for a PERFECT. Free on the App Store." />
+<meta name="twitter:image" content="https://wbsmith04.github.io/orbit-glide/media/og.jpg" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Orbit Glide",
+  "operatingSystem": "iOS",
+  "applicationCategory": "GameApplication",
+  "description": "A one-tap space arcade game. Fling your comet from planet to planet, land dead center for a PERFECT, play 200 levels and a daily challenge, and collect 100 comets.",
+  "url": "https://wbsmith04.github.io/orbit-glide/",
+  "downloadUrl": "https://apps.apple.com/app/id6820881837",
+  "image": "https://wbsmith04.github.io/orbit-glide/media/og.jpg",
+  "author": { "@type": "Person", "name": "William Blaine Smith" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+<style>
+  :root { color-scheme: dark; --ink: #e8eef7; --soft: #c8d4e6; --mute: #93a3bc; --line: rgba(255,255,255,.14); }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; color: var(--ink);
+    background: radial-gradient(120% 60% at 50% 0%, #1d2a6e 0%, #0f1440 45%, #070a1e 100%) fixed; }
+  main { max-width: 1040px; margin: 0 auto; padding: 0 16px 64px; }
+  .hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; padding: 64px 0 40px; }
+  .logo { margin: 0; font-weight: 800; font-size: clamp(54px, 9vw, 92px); line-height: 1; letter-spacing: .12em;
+    background: linear-gradient(180deg,#fff 0%,rgba(255,255,255,.92) 18%,rgba(214,234,255,.62) 46%,rgba(255,255,255,.86) 50%,rgba(170,205,255,.42) 78%,rgba(225,240,255,.85) 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 10px 30px rgba(120,180,255,.35)); }
+  .glide { margin: 10px 0 0; letter-spacing: .9em; font-weight: 600; color: rgba(214,234,255,.88); }
+  .lead { font-size: 21px; color: var(--soft); margin: 22px 0 26px; max-width: 30em; }
+  .get { display: inline-block; padding: 15px 30px; border-radius: 999px; color: #0b1030; font-weight: 700; text-decoration: none;
+    background: linear-gradient(180deg,#fff,#d6e6ff); box-shadow: 0 10px 30px -8px rgba(120,180,255,.6); }
+  .free { margin-top: 12px; color: var(--mute); font-size: 15px; }
+  .phone { justify-self: center; width: min(300px, 80vw); aspect-ratio: 804 / 1748; border-radius: 44px; padding: 10px;
+    background: linear-gradient(160deg,rgba(255,255,255,.32),rgba(255,255,255,.08)); box-shadow: 0 40px 90px -20px rgba(0,0,0,.8), 0 0 60px rgba(120,170,255,.25); }
+  .phone video { width: 100%; height: 100%; border-radius: 35px; display: block; object-fit: cover; background: #0b1440; }
+  h2 { font-size: 28px; letter-spacing: -.01em; margin: 56px 0 18px; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+  .card { padding: 22px; border-radius: 20px; border: 1px solid var(--line);
+    background: linear-gradient(160deg, rgba(255,255,255,.10), rgba(255,255,255,.03)); box-shadow: inset 0 1px 0 rgba(255,255,255,.2); }
+  .card h3 { margin: 0 0 6px; font-size: 18px; }
+  .card p { margin: 0; color: var(--soft); font-size: 16px; }
+  .shots { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 10px; scroll-snap-type: x mandatory; }
+  .shots img { height: 460px; border-radius: 24px; scroll-snap-align: start; border: 1px solid var(--line); }
+  footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--mute); font-size: 15px; display: flex; flex-wrap: wrap; gap: 8px 22px; }
+  footer a, a { color: #9fdcff; }
+  @media (max-width: 760px) {
+    .hero { grid-template-columns: 1fr; text-align: center; padding-top: 40px; }
+    .lead { margin-left: auto; margin-right: auto; }
+    .shots img { height: 380px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div>
+      <h1 class="logo">ORBIT</h1>
+      <p class="glide">GLIDE</p>
+      <p class="lead">Your comet orbits a planet. Tap to let go. Land dead center for a PERFECT, chain streaks, and keep moving: every planet collapses behind you.</p>
+      <a class="get" href="https://apps.apple.com/app/id6820881837">Download on the App Store</a>
+      <p class="free">Free for iPhone · Plays offline</p>
+    </div>
+    <div class="phone"><video src="media/gameplay.mp4" poster="media/poster.jpg" autoplay muted loop playsinline aria-label="Orbit Glide gameplay"></video></div>
+  </section>
+
+  <h2>One tap. Endless runs.</h2>
+  <div class="features">
+    <div class="card"><h3>Easy to learn</h3><p>One touch is all it takes. Mastering the timing is another story.</p></div>
+    <div class="card"><h3>PERFECT streaks</h3><p>Hit the bullseye again and again to multiply your score.</p></div>
+    <div class="card"><h3>100 comets</h3><p>From glossy pebbles to black holes and blazing suns, each with its own trail.</p></div>
+    <div class="card"><h3>200 levels</h3><p>Race through ghost planets, gravity wells and wormholes, plus a new daily challenge.</p></div>
+  </div>
+
+  <h2>Screenshots</h2>
+  <div class="shots">
+    <img src="media/shot-1.jpg" alt="Orbit Glide gameplay" loading="lazy" />
+    <img src="media/shot-2.jpg" alt="Orbit Glide gameplay" loading="lazy" />
+    <img src="media/shot-3.jpg" alt="Orbit Glide gameplay" loading="lazy" />
+    <img src="media/shot-4.jpg" alt="Level select" loading="lazy" />
+    <img src="media/shot-5.jpg" alt="Comet collection" loading="lazy" />
+  </div>
+
+  <footer>
+    <span>© 2026 William Blaine Smith</span>
+    <a href="press/">Press kit</a>
+    <a href="support/">Support</a>
+    <a href="privacy/">Privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>
