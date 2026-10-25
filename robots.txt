@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://wbsmith04.github.io/orbit-glide/sitemap.xml
