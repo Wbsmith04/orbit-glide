@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Play Orbit Glide Free in Your Browser</title>
+<meta name="description" content="Play the free Orbit Glide demo in your browser: a one-tap space arcade game. Fling your comet from planet to planet and land dead center. Full game free on iPhone." />
+<meta name="apple-itunes-app" content="app-id=6820881837" />
+<link rel="canonical" href="https://wbsmith04.github.io/orbit-glide/play/" />
+<link rel="icon" href="../media/icon.png" />
+<meta property="og:title" content="Play Orbit Glide free in your browser" />
+<meta property="og:image" content="https://wbsmith04.github.io/orbit-glide/media/og.jpg" />
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html { background: #070a1e; }
+  body { margin: 0; min-height: 100vh; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; color: #e8eef7;
+    background: radial-gradient(120% 70% at 50% 0%, #1d2a6e 0%, #0f1440 45%, #070a1e 100%) fixed;
+    display: flex; align-items: center; justify-content: center; gap: 48px; padding: 24px 16px; }
+  .phone { width: min(400px, 92vw); aspect-ratio: 402 / 874; max-height: calc(100vh - 48px); border-radius: 44px; padding: 10px;
+    background: linear-gradient(160deg, rgba(255,255,255,.32), rgba(255,255,255,.08)); box-shadow: 0 40px 90px -20px rgba(0,0,0,.8); }
+  .phone iframe { width: 100%; height: 100%; border: 0; border-radius: 35px; display: block; background: #070a1e; }
+  .side { max-width: 320px; }
+  h1 { margin: 0; font-size: 44px; letter-spacing: .1em; font-weight: 800; }
+  .side p { color: #c8d4e6; }
+  .qr { width: 190px; padding: 12px; background: #fff; border-radius: 20px; display: block; margin: 18px 0 8px; }
+  .get { display: inline-block; margin-top: 10px; padding: 13px 24px; border-radius: 999px; color: #0b1030; font-weight: 700; text-decoration: none; background: linear-gradient(180deg,#fff,#d6e6ff); }
+  .small { font-size: 14px; color: #93a3bc; }
+  a { color: #9fdcff; }
+  @media (max-width: 760px) { .side { display: none; } body { padding: 0; } .phone { width: 100vw; height: 100vh; max-height: none; aspect-ratio: auto; border-radius: 0; padding: 0; } .phone iframe { border-radius: 0; } }
+</style>
+</head>
+<body>
+  <div class="phone"><iframe src="game/index.html" title="Orbit Glide demo" allow="autoplay; fullscreen"></iframe></div>
+  <div class="side">
+    <h1>ORBIT GLIDE</h1>
+    <p><b>Free web demo.</b> Click or tap to release your comet from orbit. Land dead center for a PERFECT and keep moving: every planet collapses behind you.</p>
+    <p>The full game is free on iPhone: 200 levels, a daily challenge, 100 comets and leaderboards.</p>
+    <img class="qr" src="qr.png" alt="QR code: Orbit Glide on the App Store" />
+    <div class="small">Scan with your iPhone camera</div>
+    <a class="get" href="https://apps.apple.com/app/id6820881837" target="_blank" rel="noopener">Download on the App Store</a>
+    <p class="small"><a href="../">Orbit Glide home</a> · <a href="../guide/">Tips</a></p>
+  </div>
+</body>
+</html>
